@@ -1,0 +1,14 @@
+--- lazr.authentication-0.1.2/setup.py.orig	2011-06-10 14:30:50.000000000 -0500
++++ lazr.authentication-0.1.2/setup.py	2011-06-10 14:30:58.000000000 -0500
+@@ -55,11 +55,6 @@
+         'src/lazr/authentication/NEWS.txt'),
+     license='LGPL v3',
+     install_requires=[
+-        'httplib2',
+-        'oauth',
+-        'setuptools',
+-        'wsgi_intercept',
+-        'zope.interface',
+         ],
+     url='https://launchpad.net/lazr.authentication',
+     download_url= 'https://launchpad.net/lazr.authentication/+download',
